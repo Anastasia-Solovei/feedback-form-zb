@@ -1,0 +1,35 @@
+.FeedbackForm {
+  width: 563px;
+  padding: 0px 3px 0px;
+}
+
+.InputOverlay {
+  margin-bottom: 8px;
+}
+
+.Input {
+  display: block;
+  width: 100%;
+  padding: 31px 46px 30px;
+
+  /* font-family: ; */
+  font-size: 18px;
+  line-height: 1.77;
+  color: #2d2d2d;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+}
+
+.FormButton {
+  margin-top: 15px;
+  width: 218px;
+  padding: 27px 52px 28px;
+  background: #fad34f;
+  border-radius: 500px;
+
+  /* font-family: ; */
+  font-size: 18px;
+  line-height: 1;
+  color: #ffffff;
+  border: none;
+}

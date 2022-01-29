@@ -1,7 +1,11 @@
-// import logo from "./logo.svg";
+import React from 'react';
+
+import './App.module.css';
+
+import FeedbackPage from './pages/FeedbackPage';
 
 function App() {
-  return <div className="App"></div>;
+  return <FeedbackPage />;
 }
 
 export default App;
