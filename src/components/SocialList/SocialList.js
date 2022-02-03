@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import { device } from '../../breakpoints';
 import sprite from '../../images/icons.svg';
 
 const List = styled.ul`
@@ -13,8 +14,13 @@ const ListItem = styled.li`
 
 const Link = styled.a`
   display: inline-flex;
-  width: 16px;
-  height: 16px;
+  width: 10px;
+  height: 10px;
+
+  @media ${device.tablet} {
+    width: 16px;
+    height: 16px;
+  }
 `;
 
 export default function SocialList() {
